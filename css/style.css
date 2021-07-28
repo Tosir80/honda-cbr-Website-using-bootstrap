@@ -1,0 +1,57 @@
+/* font family import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins',
+    sans-serif;
+}
+/*-------------------------------
+ navbar style css
+ ------------------------------- */
+.bg-btn {
+    background-color: #E76F51;
+}
+
+
+/*-------------------------------
+banner section style
+ ------------------------------- */
+.banner{
+    background:#264653;
+    color:white;
+}
+
+/*-------------------------------
+Bakies section style
+ ------------------------------- */
+.img-gray{
+     filter: grayscale(100%);
+}
+.bakies .sub-head p{
+    color:#E76F51;
+}
+
+.bakies .sub-head p::after{
+    content: "";
+    display: block;
+    margin:0 auto;
+    background:#E76F51;
+    width:70px;
+    height: 1px;
+    margin-top:2px;
+}
+
+/*-------------------------------
+News section style
+ ------------------------------- */
+.btn-border{
+    color:#E76F51;
+    border:2px solid #E76F51;
+    font-weight: 500;
+}
+
+/*-------------------------------
+Clients section style
+ ------------------------------- */
+.clients i{
+    color:#E76F51;
+}
