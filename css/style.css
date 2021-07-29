@@ -7,6 +7,10 @@ body{
 /*-------------------------------
  navbar style css
  ------------------------------- */
+ nav .text-nav{
+     color:#E76F51 !important;
+     font-weight: 600;
+ }
 .bg-btn {
     background-color: #E76F51;
 }
@@ -18,6 +22,14 @@ banner section style
 .banner{
     background:#264653;
     color:white;
+}
+.modal-icon{
+    font-size: 60px;
+    text-align: center;
+    color:green;
+}
+.transactionid{
+    color:green;
 }
 
 /*-------------------------------
@@ -36,7 +48,7 @@ Bakies section style
     margin:0 auto;
     background:#E76F51;
     width:70px;
-    height: 1px;
+    height: 2px;
     margin-top:2px;
 }
 
@@ -53,5 +65,28 @@ News section style
 Clients section style
  ------------------------------- */
 .clients i{
+    color:#E76F51;
+}
+
+
+/*==============================
+Bounus Part style
+=============================== */
+.newsletter{
+    background-color: #DFF1FF;
+}
+
+/* --------contact section------ */
+.contact h1::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    background: #59e751;
+    width: 170px;
+    height: 2px;
+    margin-top: 2px;
+}
+
+.contact .icon{
     color:#E76F51;
 }
